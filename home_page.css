@@ -2,7 +2,7 @@
 
 /*------------- Header --------------*/
 #nav-title {
-    background-color: #0dd8ee;
+    background-color: #054a6a;
     color: white;
     margin-left: 50px;
 }
@@ -15,12 +15,11 @@
     padding-top: 0px;
 }
 .navbar-toggle {
-    background-color: #0dd8ee; 
+    background-color: #054a6a; 
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
-/*drop down*/
 
 
 /*--------------- Size Control ----------------*/
@@ -29,7 +28,7 @@
         width: 23%;
     }
     .comparison {
-        border-bottom: 1px solid #0dd8ee;
+        border-bottom: 1px solid #054a6a;
         padding-bottom: 20px;
     }
     #bottom-comp {

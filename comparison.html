@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Latitude</title>
+    <title>Latitude/Comparison</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="test.css">
@@ -44,42 +44,42 @@
     </nav>
 
     <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <section>
-                      <h1>
-                        Summary
-                      </h1>
-                      <div class="main-content">
-                          <img src="charts/temp.png" alt="Temperature by Latitude" id="landing-img" class="img-responsive">
-                          <p>
-                                Temperature, wind-speed, humidity, and cloudiness get strongly affected by latitude. This website will show the visualization part of the study for each element mentioned above. For more details on the study visit this link <a target="_blank" href="https://github.com/AlfaiAbdul/WeatherPy_Project-">Weather_Project</a> @ my GitHub account.<br>
-                          </p>    
-                      </div>
-                  </section>
-                </div>
-                <div class="col-md-4">
-                    <section class="clearfix">
-                      <h1>
-                          Visualizations
-                      </h1>
-                      <a href="temp.html">
-                          <img src="charts/temp.png" alt="Temperature by Latitude" class="img-responsive side-bar-img">
-                      </a>
-                      <a href="cloudniness.html">
-                          <img src="charts/cloudiness.png" alt="Cloudiness by Latitude" class="img-responsive side-bar-img">
-                      </a>
-                      <a href="wind_speed.html">
-                          <img src="charts/wind_speed.png" alt="Windyness by Latitude" class="img-responsive side-bar-img">
-                      </a>
-                      <a href="humidity.html">
-                          <img src="charts/humidity.png" alt="Humidity by Latitude" class="img-responsive side-bar-img">
-                      </a>
-                    </section>
-                </div>
+                <div class="row">
+                    
+                    <div class="comparison-panel">
+                    <div class="panel panel-info">
+                    <div class="panel-heading">Comparisons of the four elemnts</div>
+                    <div class="panel-body">
+                    <p>for in-depth analysis, click on any of the plots below:</p>
+                    <hr>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-6" >
+                                <h2>Latitude vs. Temperature</h2>
+                                <hr>
+                                <a href="temp.html"><img class ="comparison-image-2" src="charts/temp.png" ></a>
+                            </div>
+                            <div class="col-sm-6" >
+                                <h2>Latitude vs. Humidity</h2>
+                                <hr>
+                            <a href="humidity.html"><img class ="comparison-image-2" src="charts/humidity.png" ></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6" >
+                                <h2>Latitude vs. Cloudiness</h2>
+                                <hr>
+                                <a href="cloudniness.html"><img class ="comparison-image-2" src="charts/cloudiness.png" ></a>
+                            </div>
+                            <div class="col-sm-6" >
+                                <h2>Latitude vs. Wind Speed</h2>
+                                <hr>
+                                <a href="wind_speed.html"><img class ="comparison-image-2" src="charts/wind_speed.png" ></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
             </div>
-        </div> 
-    </body>
-
-</html>
+     </body>
